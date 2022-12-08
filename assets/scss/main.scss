@@ -1,0 +1,29 @@
+.playfield{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 1000px;
+
+    .block{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        background-color: black;
+
+        .snakePart{
+            background-color: blue;
+            width: 80px;
+            height: 80px;
+            
+        }
+
+        .apple{
+            background-color: red;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+}

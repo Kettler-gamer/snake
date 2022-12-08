@@ -1,0 +1,25 @@
+.playfield {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  height: 1000px;
+}
+.playfield .block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.playfield .block .snakePart {
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+}
+.playfield .block .apple {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
